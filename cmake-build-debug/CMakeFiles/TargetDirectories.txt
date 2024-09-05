@@ -1,0 +1,4 @@
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/s_and_c.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/bug_and_apple.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
