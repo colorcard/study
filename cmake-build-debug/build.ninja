@@ -86,6 +86,18 @@ build CMakeFiles/bug_and_apple.dir/bug_and_apple.c.o: C_COMPILER__bug_and_apple_
   OBJECT_DIR = CMakeFiles/bug_and_apple.dir
   OBJECT_FILE_DIR = CMakeFiles/bug_and_apple.dir
 
+build CMakeFiles/bug_and_apple.dir/add.c.o: C_COMPILER__bug_and_apple_unscanned_Debug /Users/colorcard/CLionProjects/study/add.c || cmake_object_order_depends_target_bug_and_apple
+  DEP_FILE = CMakeFiles/bug_and_apple.dir/add.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bug_and_apple.dir
+  OBJECT_FILE_DIR = CMakeFiles/bug_and_apple.dir
+
+build CMakeFiles/bug_and_apple.dir/int.c.o: C_COMPILER__bug_and_apple_unscanned_Debug /Users/colorcard/CLionProjects/study/int.c || cmake_object_order_depends_target_bug_and_apple
+  DEP_FILE = CMakeFiles/bug_and_apple.dir/int.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bug_and_apple.dir
+  OBJECT_FILE_DIR = CMakeFiles/bug_and_apple.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bug_and_apple
@@ -94,13 +106,44 @@ build CMakeFiles/bug_and_apple.dir/bug_and_apple.c.o: C_COMPILER__bug_and_apple_
 #############################################
 # Link the executable bug_and_apple
 
-build bug_and_apple: C_EXECUTABLE_LINKER__bug_and_apple_Debug CMakeFiles/bug_and_apple.dir/bug_and_apple.c.o
+build bug_and_apple: C_EXECUTABLE_LINKER__bug_and_apple_Debug CMakeFiles/bug_and_apple.dir/bug_and_apple.c.o CMakeFiles/bug_and_apple.dir/add.c.o CMakeFiles/bug_and_apple.dir/int.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/bug_and_apple.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = bug_and_apple
   TARGET_PDB = bug_and_apple.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target add
+
+
+#############################################
+# Order-only phony target for add
+
+build cmake_object_order_depends_target_add: phony || CMakeFiles/add.dir
+
+build CMakeFiles/add.dir/add.c.o: C_COMPILER__add_unscanned_Debug /Users/colorcard/CLionProjects/study/add.c || cmake_object_order_depends_target_add
+  DEP_FILE = CMakeFiles/add.dir/add.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/add.dir
+  OBJECT_FILE_DIR = CMakeFiles/add.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target add
+
+
+#############################################
+# Link the executable add
+
+build add: C_EXECUTABLE_LINKER__add_Debug CMakeFiles/add.dir/add.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/add.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = add
+  TARGET_PDB = add.dbg
 
 
 #############################################
@@ -136,7 +179,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple
+build all: phony s_and_c bug_and_apple add
 
 # =============================================================================
 # Built-in targets
