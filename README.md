@@ -10,6 +10,6 @@
 - [bug_and_apple.c](bug_and_apple.c) 苹果与虫
 - [s_and_c.c](s_and_c.c) 已知三点坐标计算三角形周长面积
 - [PrimalityTest.c](PrimalityTest.c) 素数分离
-
+- [Calculate_e.c](Calculate_e.c) 计算e的值
 
 
