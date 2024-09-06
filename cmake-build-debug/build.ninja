@@ -104,6 +104,12 @@ build CMakeFiles/bug_and_apple.dir/PrimalityTest.c.o: C_COMPILER__bug_and_apple_
   OBJECT_DIR = CMakeFiles/bug_and_apple.dir
   OBJECT_FILE_DIR = CMakeFiles/bug_and_apple.dir
 
+build CMakeFiles/bug_and_apple.dir/Calculate_e.c.o: C_COMPILER__bug_and_apple_unscanned_Debug /Users/colorcard/CLionProjects/study/Calculate_e.c || cmake_object_order_depends_target_bug_and_apple
+  DEP_FILE = CMakeFiles/bug_and_apple.dir/Calculate_e.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bug_and_apple.dir
+  OBJECT_FILE_DIR = CMakeFiles/bug_and_apple.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bug_and_apple
@@ -112,7 +118,7 @@ build CMakeFiles/bug_and_apple.dir/PrimalityTest.c.o: C_COMPILER__bug_and_apple_
 #############################################
 # Link the executable bug_and_apple
 
-build bug_and_apple: C_EXECUTABLE_LINKER__bug_and_apple_Debug CMakeFiles/bug_and_apple.dir/bug_and_apple.c.o CMakeFiles/bug_and_apple.dir/add.c.o CMakeFiles/bug_and_apple.dir/int.c.o CMakeFiles/bug_and_apple.dir/PrimalityTest.c.o
+build bug_and_apple: C_EXECUTABLE_LINKER__bug_and_apple_Debug CMakeFiles/bug_and_apple.dir/bug_and_apple.c.o CMakeFiles/bug_and_apple.dir/add.c.o CMakeFiles/bug_and_apple.dir/int.c.o CMakeFiles/bug_and_apple.dir/PrimalityTest.c.o CMakeFiles/bug_and_apple.dir/Calculate_e.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
   OBJECT_DIR = CMakeFiles/bug_and_apple.dir
   POST_BUILD = :
@@ -182,6 +188,37 @@ build PrimalityTest: C_EXECUTABLE_LINKER__PrimalityTest_Debug CMakeFiles/Primali
   TARGET_FILE = PrimalityTest
   TARGET_PDB = PrimalityTest.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Calculate_e
+
+
+#############################################
+# Order-only phony target for Calculate_e
+
+build cmake_object_order_depends_target_Calculate_e: phony || CMakeFiles/Calculate_e.dir
+
+build CMakeFiles/Calculate_e.dir/Calculate_e.c.o: C_COMPILER__Calculate_e_unscanned_Debug /Users/colorcard/CLionProjects/study/Calculate_e.c || cmake_object_order_depends_target_Calculate_e
+  DEP_FILE = CMakeFiles/Calculate_e.dir/Calculate_e.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Calculate_e.dir
+  OBJECT_FILE_DIR = CMakeFiles/Calculate_e.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Calculate_e
+
+
+#############################################
+# Link the executable Calculate_e
+
+build Calculate_e: C_EXECUTABLE_LINKER__Calculate_e_Debug CMakeFiles/Calculate_e.dir/Calculate_e.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/Calculate_e.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Calculate_e
+  TARGET_PDB = Calculate_e.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -216,7 +253,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e
 
 # =============================================================================
 # Built-in targets

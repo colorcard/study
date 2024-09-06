@@ -2,5 +2,6 @@
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/bug_and_apple.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/add.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/PrimalityTest.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/Calculate_e.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
