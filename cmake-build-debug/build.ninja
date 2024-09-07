@@ -374,6 +374,37 @@ build SelectionSort: C_EXECUTABLE_LINKER__SelectionSort_Debug CMakeFiles/Selecti
   TARGET_FILE = SelectionSort
   TARGET_PDB = SelectionSort.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target DichotomySearch
+
+
+#############################################
+# Order-only phony target for DichotomySearch
+
+build cmake_object_order_depends_target_DichotomySearch: phony || CMakeFiles/DichotomySearch.dir
+
+build CMakeFiles/DichotomySearch.dir/DichotomySearch.c.o: C_COMPILER__DichotomySearch_unscanned_Debug /Users/colorcard/CLionProjects/study/DichotomySearch.c || cmake_object_order_depends_target_DichotomySearch
+  DEP_FILE = CMakeFiles/DichotomySearch.dir/DichotomySearch.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/DichotomySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles/DichotomySearch.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DichotomySearch
+
+
+#############################################
+# Link the executable DichotomySearch
+
+build DichotomySearch: C_EXECUTABLE_LINKER__DichotomySearch_Debug CMakeFiles/DichotomySearch.dir/DichotomySearch.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/DichotomySearch.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DichotomySearch
+  TARGET_PDB = DichotomySearch.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -408,7 +439,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch
 
 # =============================================================================
 # Built-in targets
