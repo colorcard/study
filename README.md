@@ -24,5 +24,6 @@ TO DO：
 - [Fibonacci.c](Fibonacci.c) 计算斐波拉契数列的第n项
 - [min.c](min.c) 寻找一组数组中的最小值，并排序最小到第一位
 - [SelectionSort.c](SelectionSort.c) 选择排序
+- [DichotomySearch.c](DichotomySearch.c) 二分法搜索
 
 
