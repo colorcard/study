@@ -6,5 +6,6 @@
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/GCD.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/a_b.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/Fibonacci.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/min.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
