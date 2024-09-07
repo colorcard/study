@@ -11,5 +11,6 @@
 - [s_and_c.c](s_and_c.c) 已知三点坐标计算三角形周长面积
 - [PrimalityTest.c](PrimalityTest.c) 素数分离
 - [Calculate_e.c](Calculate_e.c) 计算e的值
+- [GCD.c](GCD.c) 计算两个数字的最大公约数（欧几里得算法）
 
 

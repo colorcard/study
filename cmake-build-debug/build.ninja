@@ -219,6 +219,37 @@ build Calculate_e: C_EXECUTABLE_LINKER__Calculate_e_Debug CMakeFiles/Calculate_e
   TARGET_FILE = Calculate_e
   TARGET_PDB = Calculate_e.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target GCD
+
+
+#############################################
+# Order-only phony target for GCD
+
+build cmake_object_order_depends_target_GCD: phony || CMakeFiles/GCD.dir
+
+build CMakeFiles/GCD.dir/GCD.c.o: C_COMPILER__GCD_unscanned_Debug /Users/colorcard/CLionProjects/study/GCD.c || cmake_object_order_depends_target_GCD
+  DEP_FILE = CMakeFiles/GCD.dir/GCD.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/GCD.dir
+  OBJECT_FILE_DIR = CMakeFiles/GCD.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GCD
+
+
+#############################################
+# Link the executable GCD
+
+build GCD: C_EXECUTABLE_LINKER__GCD_Debug CMakeFiles/GCD.dir/GCD.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/GCD.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = GCD
+  TARGET_PDB = GCD.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -253,7 +284,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD
 
 # =============================================================================
 # Built-in targets

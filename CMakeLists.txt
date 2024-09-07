@@ -12,3 +12,4 @@ add_executable(bug_and_apple bug_and_apple.c
 add_executable(add add.c)
 add_executable(PrimalityTest PrimalityTest.c)
 add_executable(Calculate_e Calculate_e.c)
+add_executable(GCD GCD.c)
