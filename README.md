@@ -17,5 +17,6 @@
 - [Calculate_e.c](Calculate_e.c) 计算e的值
 - [GCD.c](GCD.c) 计算两个数字的最大公约数（欧几里得算法）
 - [Fibonacci.c](Fibonacci.c) 计算斐波拉契数列的第n项
+- [min.c](min.c) 寻找一组数组中的最小值，并排序最小到第一位
 
 
