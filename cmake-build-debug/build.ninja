@@ -250,6 +250,68 @@ build GCD: C_EXECUTABLE_LINKER__GCD_Debug CMakeFiles/GCD.dir/GCD.c.o
   TARGET_FILE = GCD
   TARGET_PDB = GCD.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target a_b
+
+
+#############################################
+# Order-only phony target for a_b
+
+build cmake_object_order_depends_target_a_b: phony || CMakeFiles/a_b.dir
+
+build CMakeFiles/a_b.dir/ac_test.c.o: C_COMPILER__a_b_unscanned_Debug /Users/colorcard/CLionProjects/study/ac_test.c || cmake_object_order_depends_target_a_b
+  DEP_FILE = CMakeFiles/a_b.dir/ac_test.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/a_b.dir
+  OBJECT_FILE_DIR = CMakeFiles/a_b.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target a_b
+
+
+#############################################
+# Link the executable a_b
+
+build a_b: C_EXECUTABLE_LINKER__a_b_Debug CMakeFiles/a_b.dir/ac_test.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/a_b.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = a_b
+  TARGET_PDB = a_b.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Fibonacci
+
+
+#############################################
+# Order-only phony target for Fibonacci
+
+build cmake_object_order_depends_target_Fibonacci: phony || CMakeFiles/Fibonacci.dir
+
+build CMakeFiles/Fibonacci.dir/Fibonacci.c.o: C_COMPILER__Fibonacci_unscanned_Debug /Users/colorcard/CLionProjects/study/Fibonacci.c || cmake_object_order_depends_target_Fibonacci
+  DEP_FILE = CMakeFiles/Fibonacci.dir/Fibonacci.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Fibonacci.dir
+  OBJECT_FILE_DIR = CMakeFiles/Fibonacci.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Fibonacci
+
+
+#############################################
+# Link the executable Fibonacci
+
+build Fibonacci: C_EXECUTABLE_LINKER__Fibonacci_Debug CMakeFiles/Fibonacci.dir/Fibonacci.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/Fibonacci.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Fibonacci
+  TARGET_PDB = Fibonacci.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -284,7 +346,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci
 
 # =============================================================================
 # Built-in targets

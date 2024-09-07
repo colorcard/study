@@ -4,5 +4,7 @@
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/PrimalityTest.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/Calculate_e.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/GCD.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/a_b.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/Fibonacci.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
