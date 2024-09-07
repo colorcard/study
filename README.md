@@ -1,13 +1,18 @@
+
 #### 这是一个关于 **ColorCard** 的 C 语言学习仓库。
 我采用的开发IDE是：CLion，其中插件 [C/C+​+​ Single File Execution
 ](https://plugins.jetbrains.com/plugin/8352-c-c--single-file-execution)给予了简单编译运行的帮助。
+
+------
+TO DO：
+- [ ] 完成《C 语言程序设计》的整体学习。
+- [ ] 完成排序算法学习
 
 ------
 
 目前我已经完成的程序部分：
 
  其中[ac_test.c](ac_test.c) 用于oj平台时测试
-
 
 - [add.c](add.c) 两数相加
 - [int.c](int.c) 输出第二个整数
