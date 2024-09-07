@@ -5,6 +5,10 @@
 ------
 
 目前我已经完成的程序部分：
+
+ 其中[ac_test.c](ac_test.c) 用于oj平台时测试
+
+
 - [add.c](add.c) 两数相加
 - [int.c](int.c) 输出第二个整数
 - [bug_and_apple.c](bug_and_apple.c) 苹果与虫
@@ -12,5 +16,6 @@
 - [PrimalityTest.c](PrimalityTest.c) 素数分离
 - [Calculate_e.c](Calculate_e.c) 计算e的值
 - [GCD.c](GCD.c) 计算两个数字的最大公约数（欧几里得算法）
+- [Fibonacci.c](Fibonacci.c) 计算斐波拉契数列的第n项
 
 
