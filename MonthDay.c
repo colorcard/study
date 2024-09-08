@@ -8,7 +8,7 @@ int monthday(int year,int month,int day){
     int a[2][13]={{0,31,28,31,30,31,30,31,31,30,31,30,31},
                   {0,31,29,31,30,31,30,31,31,30,31,30,31}};
 
-    leap=(year%4==0 && year%100!=0||year%400==0);
+    leap=(year%4==0 && year%100!=0)||year%400==0;
 
     for(i=0;i<month;i++){
         day=day+a[leap][i];

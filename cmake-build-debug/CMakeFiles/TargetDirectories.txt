@@ -11,5 +11,6 @@
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/DichotomySearch.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/MonthDay.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/PalindromicJudge.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/YearDay.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir

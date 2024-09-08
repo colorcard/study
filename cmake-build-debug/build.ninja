@@ -467,6 +467,37 @@ build PalindromicJudge: C_EXECUTABLE_LINKER__PalindromicJudge_Debug CMakeFiles/P
   TARGET_FILE = PalindromicJudge
   TARGET_PDB = PalindromicJudge.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target YearDay
+
+
+#############################################
+# Order-only phony target for YearDay
+
+build cmake_object_order_depends_target_YearDay: phony || CMakeFiles/YearDay.dir
+
+build CMakeFiles/YearDay.dir/YearDay.c.o: C_COMPILER__YearDay_unscanned_Debug /Users/colorcard/CLionProjects/study/YearDay.c || cmake_object_order_depends_target_YearDay
+  DEP_FILE = CMakeFiles/YearDay.dir/YearDay.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/YearDay.dir
+  OBJECT_FILE_DIR = CMakeFiles/YearDay.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target YearDay
+
+
+#############################################
+# Link the executable YearDay
+
+build YearDay: C_EXECUTABLE_LINKER__YearDay_Debug CMakeFiles/YearDay.dir/YearDay.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/YearDay.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = YearDay
+  TARGET_PDB = YearDay.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -501,7 +532,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay
 
 # =============================================================================
 # Built-in targets
