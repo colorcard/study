@@ -26,5 +26,6 @@ TO DO：
 - [SelectionSort.c](SelectionSort.c) 选择排序
 - [DichotomySearch.c](DichotomySearch.c) 二分法搜索
 - [MonthDay.c](MonthDay.c) 查询是n年的第几天
+- [PalindromicJudge.c](PalindromicJudge.c) 判断回文字符
 
 
