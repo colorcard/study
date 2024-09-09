@@ -498,6 +498,68 @@ build YearDay: C_EXECUTABLE_LINKER__YearDay_Debug CMakeFiles/YearDay.dir/YearDay
   TARGET_FILE = YearDay
   TARGET_PDB = YearDay.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target ac_test
+
+
+#############################################
+# Order-only phony target for ac_test
+
+build cmake_object_order_depends_target_ac_test: phony || CMakeFiles/ac_test.dir
+
+build CMakeFiles/ac_test.dir/ac_test.c.o: C_COMPILER__ac_test_unscanned_Debug /Users/colorcard/CLionProjects/study/ac_test.c || cmake_object_order_depends_target_ac_test
+  DEP_FILE = CMakeFiles/ac_test.dir/ac_test.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/ac_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/ac_test.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ac_test
+
+
+#############################################
+# Link the executable ac_test
+
+build ac_test: C_EXECUTABLE_LINKER__ac_test_Debug CMakeFiles/ac_test.dir/ac_test.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/ac_test.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ac_test
+  TARGET_PDB = ac_test.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bubble
+
+
+#############################################
+# Order-only phony target for bubble
+
+build cmake_object_order_depends_target_bubble: phony || CMakeFiles/bubble.dir
+
+build CMakeFiles/bubble.dir/bubble.c.o: C_COMPILER__bubble_unscanned_Debug /Users/colorcard/CLionProjects/study/bubble.c || cmake_object_order_depends_target_bubble
+  DEP_FILE = CMakeFiles/bubble.dir/bubble.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bubble.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubble.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bubble
+
+
+#############################################
+# Link the executable bubble
+
+build bubble: C_EXECUTABLE_LINKER__bubble_Debug CMakeFiles/bubble.dir/bubble.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/bubble.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bubble
+  TARGET_PDB = bubble.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -532,7 +594,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble
 
 # =============================================================================
 # Built-in targets
