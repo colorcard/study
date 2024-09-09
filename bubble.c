@@ -11,10 +11,10 @@ int main(){
     int i=0,j,tem=1;
     int a[max];
 
-    while(scanf("%d", &a[i]) == 1) {
+    do {
+        scanf("%d",&a[i]);
         i++;
-        if (getchar() == '\n') break;
-    }
+    }while(getchar()!='\n');
 
     bubble(a,i);
     for(j=0;j<=i-1;j++){
