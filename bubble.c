@@ -8,7 +8,7 @@ void exchange(int *px,int *py);
 void bubble(int a[],int n);
 
 int main(){
-    int i=0,j,tem=1;
+    int i=0,j;
     int a[max];
 
     do {
