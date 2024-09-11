@@ -567,6 +567,37 @@ build p_Sum: C_EXECUTABLE_LINKER__p_Sum_Debug CMakeFiles/p_Sum.dir/p_Sum.c.o
   TARGET_FILE = p_Sum
   TARGET_PDB = p_Sum.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target UnhappyJJ
+
+
+#############################################
+# Order-only phony target for UnhappyJJ
+
+build cmake_object_order_depends_target_UnhappyJJ: phony || CMakeFiles/UnhappyJJ.dir
+
+build CMakeFiles/UnhappyJJ.dir/UnhappyJJ.c.o: C_COMPILER__UnhappyJJ_unscanned_Debug /Users/colorcard/CLionProjects/study/UnhappyJJ.c || cmake_object_order_depends_target_UnhappyJJ
+  DEP_FILE = CMakeFiles/UnhappyJJ.dir/UnhappyJJ.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UnhappyJJ.dir
+  OBJECT_FILE_DIR = CMakeFiles/UnhappyJJ.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UnhappyJJ
+
+
+#############################################
+# Link the executable UnhappyJJ
+
+build UnhappyJJ: C_EXECUTABLE_LINKER__UnhappyJJ_Debug CMakeFiles/UnhappyJJ.dir/UnhappyJJ.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/UnhappyJJ.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UnhappyJJ
+  TARGET_PDB = UnhappyJJ.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -601,7 +632,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ
 
 # =============================================================================
 # Built-in targets

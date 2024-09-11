@@ -23,10 +23,12 @@ TO DO：
 - [GCD.c](GCD.c) 计算两个数字的最大公约数（欧几里得算法）
 - [Fibonacci.c](Fibonacci.c) 计算斐波拉契数列的第n项
 - [min.c](min.c) 寻找一组数组中的最小值，并排序最小到第一位
+- [UnhappyJJ.c](UnhappyJJ.c) 不开心的晶晶（数组和最大值角标）
 - [SelectionSort.c](SelectionSort.c) 选择排序
 - [DichotomySearch.c](DichotomySearch.c) 二分法搜索
 - [MonthDay.c](MonthDay.c) 查询是n年的第几天
 - [PalindromicJudge.c](PalindromicJudge.c) 判断回文字符
 - [YearDay.c](YearDay.c) 查询是n年的第几天的日期
 - [bubble.c](bubble.c) 冒泡排序
+- [p_Sum.c](p_Sum.c) 指针求和
 

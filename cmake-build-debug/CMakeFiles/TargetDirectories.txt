@@ -15,5 +15,6 @@
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/ac_test.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/bubble.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/p_Sum.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/UnhappyJJ.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
