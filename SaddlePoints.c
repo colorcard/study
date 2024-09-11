@@ -1,3 +1,6 @@
+//
+// Created by colorcard on 2024/9/11.
+//
 
 #include <stdio.h>
 
@@ -18,9 +21,9 @@ int main(){
             t=0;
             for(k=0;(k<5)&&(t<5)&&(a[i][j] >= a[i][k] && a[i][j] <= a[k][j]);k++){
                 t++;
-                }
             }
         }
+    }
 
 
 

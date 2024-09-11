@@ -598,6 +598,37 @@ build UnhappyJJ: C_EXECUTABLE_LINKER__UnhappyJJ_Debug CMakeFiles/UnhappyJJ.dir/U
   TARGET_FILE = UnhappyJJ
   TARGET_PDB = UnhappyJJ.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target SaddlePoints
+
+
+#############################################
+# Order-only phony target for SaddlePoints
+
+build cmake_object_order_depends_target_SaddlePoints: phony || CMakeFiles/SaddlePoints.dir
+
+build CMakeFiles/SaddlePoints.dir/SaddlePoints.c.o: C_COMPILER__SaddlePoints_unscanned_Debug /Users/colorcard/CLionProjects/study/SaddlePoints.c || cmake_object_order_depends_target_SaddlePoints
+  DEP_FILE = CMakeFiles/SaddlePoints.dir/SaddlePoints.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SaddlePoints.dir
+  OBJECT_FILE_DIR = CMakeFiles/SaddlePoints.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SaddlePoints
+
+
+#############################################
+# Link the executable SaddlePoints
+
+build SaddlePoints: C_EXECUTABLE_LINKER__SaddlePoints_Debug CMakeFiles/SaddlePoints.dir/SaddlePoints.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/SaddlePoints.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SaddlePoints
+  TARGET_PDB = SaddlePoints.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -632,7 +663,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints
 
 # =============================================================================
 # Built-in targets
