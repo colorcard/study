@@ -629,6 +629,37 @@ build SaddlePoints: C_EXECUTABLE_LINKER__SaddlePoints_Debug CMakeFiles/SaddlePoi
   TARGET_FILE = SaddlePoints
   TARGET_PDB = SaddlePoints.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 9_9
+
+
+#############################################
+# Order-only phony target for 9_9
+
+build cmake_object_order_depends_target_9_9: phony || CMakeFiles/9_9.dir
+
+build CMakeFiles/9_9.dir/9_9.c.o: C_COMPILER__9_9_unscanned_Debug /Users/colorcard/CLionProjects/study/9_9.c || cmake_object_order_depends_target_9_9
+  DEP_FILE = CMakeFiles/9_9.dir/9_9.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/9_9.dir
+  OBJECT_FILE_DIR = CMakeFiles/9_9.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9_9
+
+
+#############################################
+# Link the executable 9_9
+
+build 9_9: C_EXECUTABLE_LINKER__9_9_Debug CMakeFiles/9_9.dir/9_9.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk
+  OBJECT_DIR = CMakeFiles/9_9.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 9_9
+  TARGET_PDB = 9_9.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -663,7 +694,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 9_9
 
 # =============================================================================
 # Built-in targets
