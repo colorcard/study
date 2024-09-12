@@ -32,4 +32,5 @@ TO DO：
 - [bubble.c](bubble.c) 冒泡排序
 - [p_Sum.c](p_Sum.c) 指针求和
 - [SaddlePoints.c](SaddlePoints.c) 寻找鞍点（二维数组）
+- [9_9.c](9_9.c) 九九乘法表（用于理解指针和数组）
 
