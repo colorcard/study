@@ -1,5 +1,8 @@
 
 #### 这是一个关于 **ColorCard** 的 C 语言学习仓库。
+
+**_本项目使用MIT开源协议_**
+
 我采用的开发IDE是：CLion，其中插件 [C/C+​+​ Single File Execution
 ](https://plugins.jetbrains.com/plugin/8352-c-c--single-file-execution)给予了简单编译运行的帮助。
 
