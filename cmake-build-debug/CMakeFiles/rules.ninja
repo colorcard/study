@@ -375,7 +375,7 @@ rule C_EXECUTABLE_LINKER__SaddlePoints_Debug
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__9_9_unscanned_Debug
+rule C_COMPILER__10_T_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}/Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -385,7 +385,7 @@ rule C_COMPILER__9_9_unscanned_Debug
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__9_9_Debug
+rule C_EXECUTABLE_LINKER__10_T_Debug
   command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT

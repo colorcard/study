@@ -17,6 +17,6 @@
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/p_Sum.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/UnhappyJJ.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/SaddlePoints.dir
-/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/9_9.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/10_T.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
