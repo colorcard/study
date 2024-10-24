@@ -8,8 +8,7 @@
 cmake_minimum_required(VERSION 3.28)
 project(study)
 
-set(CMAKE_C11_STANDARD)
+set(CMAKE_CXX_STANDARD 11)
 
 
 # Add tasks subprojects
-add_executable(ac_test ac_test.c)

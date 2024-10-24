@@ -18,25 +18,25 @@ TO DO：
 
  其中[ac_test.c](ac_test.c) 用于oj平台时测试
 
-- [add.c](add.c) 两数相加
-- [int.c](int.c) 输出第二个整数
-- [bug_and_apple.c](bug_and_apple.c) 苹果与虫
-- [s_and_c.c](s_and_c.c) 已知三点坐标计算三角形周长面积
-- [PrimalityTest.c](PrimalityTest.c) 素数分离
-- [Calculate_e.c](Calculate_e.c) 计算e的值
-- [GCD.c](GCD.c) 计算两个数字的最大公约数（欧几里得算法）
-- [Fibonacci.c](Fibonacci.c) 计算斐波拉契数列的第n项
-- [min.c](min.c) 寻找一组数组中的最小值，并排序最小到第一位
-- [UnhappyJJ.c](UnhappyJJ.c) 不开心的晶晶（数组和最大值角标）
-- [SelectionSort.c](SelectionSort.c) 选择排序
-- [DichotomySearch.c](DichotomySearch.c) 二分法搜索
-- [MonthDay.c](MonthDay.c) 查询是n年的第几天
-- [PalindromicJudge.c](PalindromicJudge.c) 判断回文字符
-- [YearDay.c](YearDay.c) 查询是n年的第几天的日期
-- [bubble.c](bubble.c) 冒泡排序
-- [p_Sum.c](p_Sum.c) 指针求和
-- [SaddlePoints.c](SaddlePoints.c) 寻找鞍点（二维数组）
-- [9_9.c](9_9.c) 九九乘法表（用于理解指针和数组）
-- [10_T.c](10_T.c) 可勾勒的最大矩形
-- [student.c](student.c) 学生成绩排名（结构体的使用）
+- [add.c](C_Basic/add.c) 两数相加
+- [int.c](C_Basic/int.c) 输出第二个整数
+- [bug_and_apple.c](C_Basic/bug_and_apple.c) 苹果与虫
+- [s_and_c.c](C_Basic/s_and_c.c) 已知三点坐标计算三角形周长面积
+- [PrimalityTest.c](C_Basic/PrimalityTest.c) 素数分离
+- [Calculate_e.c](C_Basic/Calculate_e.c) 计算e的值
+- [GCD.c](C_Basic/GCD.c) 计算两个数字的最大公约数（欧几里得算法）
+- [Fibonacci.c](C_Basic/Fibonacci.c) 计算斐波拉契数列的第n项
+- [min.c](C_Basic/min.c) 寻找一组数组中的最小值，并排序最小到第一位
+- [UnhappyJJ.c](C_Basic/UnhappyJJ.c) 不开心的晶晶（数组和最大值角标）
+- [SelectionSort.c](C_Basic/SelectionSort.c) 选择排序
+- [DichotomySearch.c](C_Basic/DichotomySearch.c) 二分法搜索
+- [MonthDay.c](C_Basic/MonthDay.c) 查询是n年的第几天
+- [PalindromicJudge.c](C_Basic/PalindromicJudge.c) 判断回文字符
+- [YearDay.c](C_Basic/YearDay.c) 查询是n年的第几天的日期
+- [bubble.c](C_Basic/bubble.c) 冒泡排序
+- [p_Sum.c](C_Basic/p_Sum.c) 指针求和
+- [SaddlePoints.c](C_Basic/SaddlePoints.c) 寻找鞍点（二维数组）
+- [9_9.c](C_Basic/9_9.c) 九九乘法表（用于理解指针和数组）
+- [10_T.c](C_Basic/10_T.c) 可勾勒的最大矩形
+- [student.c](C_Basic/student.c) 学生成绩排名（结构体的使用）
 
