@@ -7,17 +7,18 @@
 ](https://plugins.jetbrains.com/plugin/8352-c-c--single-file-execution)给予了简单编译运行的帮助。
 
 ------
-TO DO：
+**TO DO：**
 - [x] 完成《C 语言程序设计》的整体学习。
 - [ ] 完成《数据结构与算法》的整体学习。
 - [ ] 阅读一个简单的开源项目 [Tinghttpd](https://github.com/EZLippi/Tinyhttpd) 。
 
 ------
 
-目前我已经完成的程序部分：
+### 目前我已经完成的程序部分：
 
- 其中[ac_test.c](ac_test.c) 用于oj平台时测试
+- 其中[ac_test.c](ac_test.c) 用于oj平台时测试
 
+#### Part.1 [C_Basic](C_Basic) 部分（基本学习）：
 - [add.c](C_Basic/add.c) 两数相加
 - [int.c](C_Basic/int.c) 输出第二个整数
 - [bug_and_apple.c](C_Basic/bug_and_apple.c) 苹果与虫
@@ -40,3 +41,4 @@ TO DO：
 - [10_T.c](C_Basic/10_T.c) 可勾勒的最大矩形
 - [student.c](C_Basic/student.c) 学生成绩排名（结构体的使用）
 
+#### Part.2 [C_Algorithm](C_Algorithm) 部分（算法学习）：
