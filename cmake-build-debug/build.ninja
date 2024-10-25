@@ -41,6 +41,440 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/colorcard/CLionProjects/study/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target s_and_c
+
+
+#############################################
+# Order-only phony target for s_and_c
+
+build cmake_object_order_depends_target_s_and_c: phony || CMakeFiles/s_and_c.dir
+
+build CMakeFiles/s_and_c.dir/C_Basic/s_and_c.c.o: C_COMPILER__s_and_c_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/s_and_c.c || cmake_object_order_depends_target_s_and_c
+  DEP_FILE = CMakeFiles/s_and_c.dir/C_Basic/s_and_c.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/s_and_c.dir
+  OBJECT_FILE_DIR = CMakeFiles/s_and_c.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target s_and_c
+
+
+#############################################
+# Link the executable s_and_c
+
+build s_and_c: C_EXECUTABLE_LINKER__s_and_c_Debug CMakeFiles/s_and_c.dir/C_Basic/s_and_c.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/s_and_c.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = s_and_c
+  TARGET_PDB = s_and_c.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bug_and_apple
+
+
+#############################################
+# Order-only phony target for bug_and_apple
+
+build cmake_object_order_depends_target_bug_and_apple: phony || CMakeFiles/bug_and_apple.dir
+
+build CMakeFiles/bug_and_apple.dir/C_Basic/bug_and_apple.c.o: C_COMPILER__bug_and_apple_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/bug_and_apple.c || cmake_object_order_depends_target_bug_and_apple
+  DEP_FILE = CMakeFiles/bug_and_apple.dir/C_Basic/bug_and_apple.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bug_and_apple.dir
+  OBJECT_FILE_DIR = CMakeFiles/bug_and_apple.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bug_and_apple
+
+
+#############################################
+# Link the executable bug_and_apple
+
+build bug_and_apple: C_EXECUTABLE_LINKER__bug_and_apple_Debug CMakeFiles/bug_and_apple.dir/C_Basic/bug_and_apple.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/bug_and_apple.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bug_and_apple
+  TARGET_PDB = bug_and_apple.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target add
+
+
+#############################################
+# Order-only phony target for add
+
+build cmake_object_order_depends_target_add: phony || CMakeFiles/add.dir
+
+build CMakeFiles/add.dir/C_Basic/add.c.o: C_COMPILER__add_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/add.c || cmake_object_order_depends_target_add
+  DEP_FILE = CMakeFiles/add.dir/C_Basic/add.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/add.dir
+  OBJECT_FILE_DIR = CMakeFiles/add.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target add
+
+
+#############################################
+# Link the executable add
+
+build add: C_EXECUTABLE_LINKER__add_Debug CMakeFiles/add.dir/C_Basic/add.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/add.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = add
+  TARGET_PDB = add.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PrimalityTest
+
+
+#############################################
+# Order-only phony target for PrimalityTest
+
+build cmake_object_order_depends_target_PrimalityTest: phony || CMakeFiles/PrimalityTest.dir
+
+build CMakeFiles/PrimalityTest.dir/C_Basic/PrimalityTest.c.o: C_COMPILER__PrimalityTest_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/PrimalityTest.c || cmake_object_order_depends_target_PrimalityTest
+  DEP_FILE = CMakeFiles/PrimalityTest.dir/C_Basic/PrimalityTest.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PrimalityTest.dir
+  OBJECT_FILE_DIR = CMakeFiles/PrimalityTest.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PrimalityTest
+
+
+#############################################
+# Link the executable PrimalityTest
+
+build PrimalityTest: C_EXECUTABLE_LINKER__PrimalityTest_Debug CMakeFiles/PrimalityTest.dir/C_Basic/PrimalityTest.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/PrimalityTest.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PrimalityTest
+  TARGET_PDB = PrimalityTest.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Calculate_e
+
+
+#############################################
+# Order-only phony target for Calculate_e
+
+build cmake_object_order_depends_target_Calculate_e: phony || CMakeFiles/Calculate_e.dir
+
+build CMakeFiles/Calculate_e.dir/C_Basic/Calculate_e.c.o: C_COMPILER__Calculate_e_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/Calculate_e.c || cmake_object_order_depends_target_Calculate_e
+  DEP_FILE = CMakeFiles/Calculate_e.dir/C_Basic/Calculate_e.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Calculate_e.dir
+  OBJECT_FILE_DIR = CMakeFiles/Calculate_e.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Calculate_e
+
+
+#############################################
+# Link the executable Calculate_e
+
+build Calculate_e: C_EXECUTABLE_LINKER__Calculate_e_Debug CMakeFiles/Calculate_e.dir/C_Basic/Calculate_e.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/Calculate_e.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Calculate_e
+  TARGET_PDB = Calculate_e.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GCD
+
+
+#############################################
+# Order-only phony target for GCD
+
+build cmake_object_order_depends_target_GCD: phony || CMakeFiles/GCD.dir
+
+build CMakeFiles/GCD.dir/C_Basic/GCD.c.o: C_COMPILER__GCD_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/GCD.c || cmake_object_order_depends_target_GCD
+  DEP_FILE = CMakeFiles/GCD.dir/C_Basic/GCD.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/GCD.dir
+  OBJECT_FILE_DIR = CMakeFiles/GCD.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GCD
+
+
+#############################################
+# Link the executable GCD
+
+build GCD: C_EXECUTABLE_LINKER__GCD_Debug CMakeFiles/GCD.dir/C_Basic/GCD.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/GCD.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = GCD
+  TARGET_PDB = GCD.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target a_b
+
+
+#############################################
+# Order-only phony target for a_b
+
+build cmake_object_order_depends_target_a_b: phony || CMakeFiles/a_b.dir
+
+build CMakeFiles/a_b.dir/C_Basic/ac_test.c.o: C_COMPILER__a_b_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/ac_test.c || cmake_object_order_depends_target_a_b
+  DEP_FILE = CMakeFiles/a_b.dir/C_Basic/ac_test.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/a_b.dir
+  OBJECT_FILE_DIR = CMakeFiles/a_b.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target a_b
+
+
+#############################################
+# Link the executable a_b
+
+build a_b: C_EXECUTABLE_LINKER__a_b_Debug CMakeFiles/a_b.dir/C_Basic/ac_test.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/a_b.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = a_b
+  TARGET_PDB = a_b.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Fibonacci
+
+
+#############################################
+# Order-only phony target for Fibonacci
+
+build cmake_object_order_depends_target_Fibonacci: phony || CMakeFiles/Fibonacci.dir
+
+build CMakeFiles/Fibonacci.dir/C_Basic/Fibonacci.c.o: C_COMPILER__Fibonacci_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/Fibonacci.c || cmake_object_order_depends_target_Fibonacci
+  DEP_FILE = CMakeFiles/Fibonacci.dir/C_Basic/Fibonacci.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Fibonacci.dir
+  OBJECT_FILE_DIR = CMakeFiles/Fibonacci.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Fibonacci
+
+
+#############################################
+# Link the executable Fibonacci
+
+build Fibonacci: C_EXECUTABLE_LINKER__Fibonacci_Debug CMakeFiles/Fibonacci.dir/C_Basic/Fibonacci.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/Fibonacci.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Fibonacci
+  TARGET_PDB = Fibonacci.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target min
+
+
+#############################################
+# Order-only phony target for min
+
+build cmake_object_order_depends_target_min: phony || CMakeFiles/min.dir
+
+build CMakeFiles/min.dir/C_Basic/min.c.o: C_COMPILER__min_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/min.c || cmake_object_order_depends_target_min
+  DEP_FILE = CMakeFiles/min.dir/C_Basic/min.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/min.dir
+  OBJECT_FILE_DIR = CMakeFiles/min.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target min
+
+
+#############################################
+# Link the executable min
+
+build min: C_EXECUTABLE_LINKER__min_Debug CMakeFiles/min.dir/C_Basic/min.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/min.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = min
+  TARGET_PDB = min.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SelectionSort
+
+
+#############################################
+# Order-only phony target for SelectionSort
+
+build cmake_object_order_depends_target_SelectionSort: phony || CMakeFiles/SelectionSort.dir
+
+build CMakeFiles/SelectionSort.dir/C_Basic/SelectionSort.c.o: C_COMPILER__SelectionSort_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/SelectionSort.c || cmake_object_order_depends_target_SelectionSort
+  DEP_FILE = CMakeFiles/SelectionSort.dir/C_Basic/SelectionSort.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SelectionSort.dir
+  OBJECT_FILE_DIR = CMakeFiles/SelectionSort.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SelectionSort
+
+
+#############################################
+# Link the executable SelectionSort
+
+build SelectionSort: C_EXECUTABLE_LINKER__SelectionSort_Debug CMakeFiles/SelectionSort.dir/C_Basic/SelectionSort.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/SelectionSort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SelectionSort
+  TARGET_PDB = SelectionSort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DichotomySearch
+
+
+#############################################
+# Order-only phony target for DichotomySearch
+
+build cmake_object_order_depends_target_DichotomySearch: phony || CMakeFiles/DichotomySearch.dir
+
+build CMakeFiles/DichotomySearch.dir/C_Basic/DichotomySearch.c.o: C_COMPILER__DichotomySearch_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/DichotomySearch.c || cmake_object_order_depends_target_DichotomySearch
+  DEP_FILE = CMakeFiles/DichotomySearch.dir/C_Basic/DichotomySearch.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/DichotomySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles/DichotomySearch.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DichotomySearch
+
+
+#############################################
+# Link the executable DichotomySearch
+
+build DichotomySearch: C_EXECUTABLE_LINKER__DichotomySearch_Debug CMakeFiles/DichotomySearch.dir/C_Basic/DichotomySearch.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/DichotomySearch.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = DichotomySearch
+  TARGET_PDB = DichotomySearch.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MonthDay
+
+
+#############################################
+# Order-only phony target for MonthDay
+
+build cmake_object_order_depends_target_MonthDay: phony || CMakeFiles/MonthDay.dir
+
+build CMakeFiles/MonthDay.dir/C_Basic/MonthDay.c.o: C_COMPILER__MonthDay_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/MonthDay.c || cmake_object_order_depends_target_MonthDay
+  DEP_FILE = CMakeFiles/MonthDay.dir/C_Basic/MonthDay.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/MonthDay.dir
+  OBJECT_FILE_DIR = CMakeFiles/MonthDay.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MonthDay
+
+
+#############################################
+# Link the executable MonthDay
+
+build MonthDay: C_EXECUTABLE_LINKER__MonthDay_Debug CMakeFiles/MonthDay.dir/C_Basic/MonthDay.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/MonthDay.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = MonthDay
+  TARGET_PDB = MonthDay.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PalindromicJudge
+
+
+#############################################
+# Order-only phony target for PalindromicJudge
+
+build cmake_object_order_depends_target_PalindromicJudge: phony || CMakeFiles/PalindromicJudge.dir
+
+build CMakeFiles/PalindromicJudge.dir/C_Basic/PalindromicJudge.c.o: C_COMPILER__PalindromicJudge_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/PalindromicJudge.c || cmake_object_order_depends_target_PalindromicJudge
+  DEP_FILE = CMakeFiles/PalindromicJudge.dir/C_Basic/PalindromicJudge.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PalindromicJudge.dir
+  OBJECT_FILE_DIR = CMakeFiles/PalindromicJudge.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PalindromicJudge
+
+
+#############################################
+# Link the executable PalindromicJudge
+
+build PalindromicJudge: C_EXECUTABLE_LINKER__PalindromicJudge_Debug CMakeFiles/PalindromicJudge.dir/C_Basic/PalindromicJudge.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/PalindromicJudge.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PalindromicJudge
+  TARGET_PDB = PalindromicJudge.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target YearDay
+
+
+#############################################
+# Order-only phony target for YearDay
+
+build cmake_object_order_depends_target_YearDay: phony || CMakeFiles/YearDay.dir
+
+build CMakeFiles/YearDay.dir/C_Basic/YearDay.c.o: C_COMPILER__YearDay_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/YearDay.c || cmake_object_order_depends_target_YearDay
+  DEP_FILE = CMakeFiles/YearDay.dir/C_Basic/YearDay.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/YearDay.dir
+  OBJECT_FILE_DIR = CMakeFiles/YearDay.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target YearDay
+
+
+#############################################
+# Link the executable YearDay
+
+build YearDay: C_EXECUTABLE_LINKER__YearDay_Debug CMakeFiles/YearDay.dir/C_Basic/YearDay.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/YearDay.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = YearDay
+  TARGET_PDB = YearDay.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ac_test
 
 
@@ -49,11 +483,11 @@ cmake_ninja_workdir = /Users/colorcard/CLionProjects/study/cmake-build-debug/
 
 build cmake_object_order_depends_target_ac_test: phony || CMakeFiles/ac_test.dir
 
-build CMakeFiles/ac_test.dir/ac_test.c.o: C_COMPILER__ac_test_unscanned_Debug /Users/colorcard/CLionProjects/study/ac_test.c || cmake_object_order_depends_target_ac_test
-  DEP_FILE = CMakeFiles/ac_test.dir/ac_test.c.o.d
-  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+build CMakeFiles/ac_test.dir/C_Basic/ac_test.c.o: C_COMPILER__ac_test_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/ac_test.c || cmake_object_order_depends_target_ac_test
+  DEP_FILE = CMakeFiles/ac_test.dir/C_Basic/ac_test.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/ac_test.dir
-  OBJECT_FILE_DIR = CMakeFiles/ac_test.dir
+  OBJECT_FILE_DIR = CMakeFiles/ac_test.dir/C_Basic
 
 
 # =============================================================================
@@ -63,13 +497,261 @@ build CMakeFiles/ac_test.dir/ac_test.c.o: C_COMPILER__ac_test_unscanned_Debug /U
 #############################################
 # Link the executable ac_test
 
-build ac_test: C_EXECUTABLE_LINKER__ac_test_Debug CMakeFiles/ac_test.dir/ac_test.c.o
+build ac_test: C_EXECUTABLE_LINKER__ac_test_Debug CMakeFiles/ac_test.dir/C_Basic/ac_test.c.o
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/ac_test.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = ac_test
   TARGET_PDB = ac_test.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bubble
+
+
+#############################################
+# Order-only phony target for bubble
+
+build cmake_object_order_depends_target_bubble: phony || CMakeFiles/bubble.dir
+
+build CMakeFiles/bubble.dir/C_Basic/bubble.c.o: C_COMPILER__bubble_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/bubble.c || cmake_object_order_depends_target_bubble
+  DEP_FILE = CMakeFiles/bubble.dir/C_Basic/bubble.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/bubble.dir
+  OBJECT_FILE_DIR = CMakeFiles/bubble.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bubble
+
+
+#############################################
+# Link the executable bubble
+
+build bubble: C_EXECUTABLE_LINKER__bubble_Debug CMakeFiles/bubble.dir/C_Basic/bubble.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/bubble.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = bubble
+  TARGET_PDB = bubble.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target p_Sum
+
+
+#############################################
+# Order-only phony target for p_Sum
+
+build cmake_object_order_depends_target_p_Sum: phony || CMakeFiles/p_Sum.dir
+
+build CMakeFiles/p_Sum.dir/C_Basic/p_Sum.c.o: C_COMPILER__p_Sum_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/p_Sum.c || cmake_object_order_depends_target_p_Sum
+  DEP_FILE = CMakeFiles/p_Sum.dir/C_Basic/p_Sum.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/p_Sum.dir
+  OBJECT_FILE_DIR = CMakeFiles/p_Sum.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target p_Sum
+
+
+#############################################
+# Link the executable p_Sum
+
+build p_Sum: C_EXECUTABLE_LINKER__p_Sum_Debug CMakeFiles/p_Sum.dir/C_Basic/p_Sum.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/p_Sum.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = p_Sum
+  TARGET_PDB = p_Sum.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target UnhappyJJ
+
+
+#############################################
+# Order-only phony target for UnhappyJJ
+
+build cmake_object_order_depends_target_UnhappyJJ: phony || CMakeFiles/UnhappyJJ.dir
+
+build CMakeFiles/UnhappyJJ.dir/C_Basic/UnhappyJJ.c.o: C_COMPILER__UnhappyJJ_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/UnhappyJJ.c || cmake_object_order_depends_target_UnhappyJJ
+  DEP_FILE = CMakeFiles/UnhappyJJ.dir/C_Basic/UnhappyJJ.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/UnhappyJJ.dir
+  OBJECT_FILE_DIR = CMakeFiles/UnhappyJJ.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target UnhappyJJ
+
+
+#############################################
+# Link the executable UnhappyJJ
+
+build UnhappyJJ: C_EXECUTABLE_LINKER__UnhappyJJ_Debug CMakeFiles/UnhappyJJ.dir/C_Basic/UnhappyJJ.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/UnhappyJJ.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = UnhappyJJ
+  TARGET_PDB = UnhappyJJ.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SaddlePoints
+
+
+#############################################
+# Order-only phony target for SaddlePoints
+
+build cmake_object_order_depends_target_SaddlePoints: phony || CMakeFiles/SaddlePoints.dir
+
+build CMakeFiles/SaddlePoints.dir/C_Basic/SaddlePoints.c.o: C_COMPILER__SaddlePoints_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/SaddlePoints.c || cmake_object_order_depends_target_SaddlePoints
+  DEP_FILE = CMakeFiles/SaddlePoints.dir/C_Basic/SaddlePoints.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/SaddlePoints.dir
+  OBJECT_FILE_DIR = CMakeFiles/SaddlePoints.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SaddlePoints
+
+
+#############################################
+# Link the executable SaddlePoints
+
+build SaddlePoints: C_EXECUTABLE_LINKER__SaddlePoints_Debug CMakeFiles/SaddlePoints.dir/C_Basic/SaddlePoints.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/SaddlePoints.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = SaddlePoints
+  TARGET_PDB = SaddlePoints.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10_T
+
+
+#############################################
+# Order-only phony target for 10_T
+
+build cmake_object_order_depends_target_10_T: phony || CMakeFiles/10_T.dir
+
+build CMakeFiles/10_T.dir/C_Basic/10_T.c.o: C_COMPILER__10_T_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/10_T.c || cmake_object_order_depends_target_10_T
+  DEP_FILE = CMakeFiles/10_T.dir/C_Basic/10_T.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/10_T.dir
+  OBJECT_FILE_DIR = CMakeFiles/10_T.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10_T
+
+
+#############################################
+# Link the executable 10_T
+
+build 10_T: C_EXECUTABLE_LINKER__10_T_Debug CMakeFiles/10_T.dir/C_Basic/10_T.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/10_T.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 10_T
+  TARGET_PDB = 10_T.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target student
+
+
+#############################################
+# Order-only phony target for student
+
+build cmake_object_order_depends_target_student: phony || CMakeFiles/student.dir
+
+build CMakeFiles/student.dir/C_Basic/student.c.o: C_COMPILER__student_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/student.c || cmake_object_order_depends_target_student
+  DEP_FILE = CMakeFiles/student.dir/C_Basic/student.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/student.dir
+  OBJECT_FILE_DIR = CMakeFiles/student.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target student
+
+
+#############################################
+# Link the executable student
+
+build student: C_EXECUTABLE_LINKER__student_Debug CMakeFiles/student.dir/C_Basic/student.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/student.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = student
+  TARGET_PDB = student.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_Bisection
+
+
+#############################################
+# Order-only phony target for 1_Bisection
+
+build cmake_object_order_depends_target_1_Bisection: phony || CMakeFiles/1_Bisection.dir
+
+build CMakeFiles/1_Bisection.dir/C_Algorithm/Bisection.c.o: C_COMPILER__1_Bisection_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Algorithm/Bisection.c || cmake_object_order_depends_target_1_Bisection
+  DEP_FILE = CMakeFiles/1_Bisection.dir/C_Algorithm/Bisection.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/1_Bisection.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_Bisection.dir/C_Algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_Bisection
+
+
+#############################################
+# Link the executable 1_Bisection
+
+build 1_Bisection: C_EXECUTABLE_LINKER__1_Bisection_Debug CMakeFiles/1_Bisection.dir/C_Algorithm/Bisection.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/1_Bisection.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_Bisection
+  TARGET_PDB = 1_Bisection.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Array-based-List
+
+
+#############################################
+# Order-only phony target for Array-based-List
+
+build cmake_object_order_depends_target_Array-based-List: phony || CMakeFiles/Array-based-List.dir
+
+build CMakeFiles/Array-based-List.dir/C_Algorithm/Array-based-List.c.o: C_COMPILER__Array-based-List_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Algorithm/Array-based-List.c || cmake_object_order_depends_target_Array-based-List
+  DEP_FILE = CMakeFiles/Array-based-List.dir/C_Algorithm/Array-based-List.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Array-based-List.dir
+  OBJECT_FILE_DIR = CMakeFiles/Array-based-List.dir/C_Algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Array-based-List
+
+
+#############################################
+# Link the executable Array-based-List
+
+build Array-based-List: C_EXECUTABLE_LINKER__Array-based-List_Debug CMakeFiles/Array-based-List.dir/C_Algorithm/Array-based-List.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/Array-based-List.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Array-based-List
+  TARGET_PDB = Array-based-List.dbg
 
 
 #############################################
@@ -105,7 +787,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony ac_test
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List
 
 # =============================================================================
 # Built-in targets
@@ -114,14 +796,14 @@ build all: phony ac_test
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/colorcard/CLionProjects/study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/colorcard/CLionProjects/study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/colorcard/CLionProjects/study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeCXXCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.28/Modules/Platform/UnixPaths.cmake /Users/colorcard/CLionProjects/study/CMakeLists.txt CMakeCache.txt CMakeFiles/3.28.1/CMakeCCompiler.cmake CMakeFiles/3.28.1/CMakeSystem.cmake: phony
 
 
 #############################################

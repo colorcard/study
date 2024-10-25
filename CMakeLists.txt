@@ -1,15 +1,28 @@
-# This file handles building each task as sub-project.
-#
-# Each task becomes an independent project in which you can experiment.
-#
-# Tasks are added as separate sub-projects so as compilation errors in
-# one task don't affect another task.
-
 cmake_minimum_required(VERSION 3.28)
-project(study)
+project(study C)
 
-set(CMAKE_C11_STANDARD)
+set(CMAKE_C_STANDARD 11)
 
-
-# Add tasks subprojects
-add_executable(ac_test ac_test.c)
+add_executable(s_and_c C_Basic/s_and_c.c)
+add_executable(bug_and_apple C_Basic/bug_and_apple.c)
+add_executable(add C_Basic/add.c)
+add_executable(PrimalityTest C_Basic/PrimalityTest.c)
+add_executable(Calculate_e C_Basic/Calculate_e.c)
+add_executable(GCD C_Basic/GCD.c)
+add_executable(a_b C_Basic/ac_test.c)
+add_executable(Fibonacci C_Basic/Fibonacci.c)
+add_executable(min C_Basic/min.c)
+add_executable(SelectionSort C_Basic/SelectionSort.c)
+add_executable(DichotomySearch C_Basic/DichotomySearch.c)
+add_executable(MonthDay C_Basic/MonthDay.c)
+add_executable(PalindromicJudge C_Basic/PalindromicJudge.c)
+add_executable(YearDay C_Basic/YearDay.c)
+add_executable(ac_test C_Basic/ac_test.c)
+add_executable(bubble C_Basic/bubble.c)
+add_executable(p_Sum C_Basic/p_Sum.c)
+add_executable(UnhappyJJ C_Basic/UnhappyJJ.c)
+add_executable(SaddlePoints C_Basic/SaddlePoints.c)
+add_executable(10_T C_Basic/10_T.c)
+add_executable(student C_Basic/student.c)
+add_executable(1_Bisection C_Algorithm/Bisection.c)
+add_executable(Array-based-List C_Algorithm/Array-based-List.c)

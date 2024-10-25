@@ -16,7 +16,7 @@
 
 ### 目前我已经完成的程序部分：
 
-- 其中[ac_test.c](ac_test.c) 用于oj平台时测试
+- 其中[ac_test.c](C_Basic/ac_test.c) 用于oj平台时测试
 
 #### Part.1 [C_Basic](C_Basic) 部分（基本学习）：
 - [add.c](C_Basic/add.c) 两数相加
@@ -42,3 +42,5 @@
 - [student.c](C_Basic/student.c) 学生成绩排名（结构体的使用）
 
 #### Part.2 [C_Algorithm](C_Algorithm) 部分（算法学习）：
+- [Bisection.c](C_Algorithm%2FBisection.c) 顺序二分法查找
+- [Array-based-List.c](C_Algorithm%2FArray-based-List.c) 顺序表
