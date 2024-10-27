@@ -753,6 +753,37 @@ build Array-based-List: C_EXECUTABLE_LINKER__Array-based-List_Debug CMakeFiles/A
   TARGET_FILE = Array-based-List
   TARGET_PDB = Array-based-List.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Linked_List
+
+
+#############################################
+# Order-only phony target for Linked_List
+
+build cmake_object_order_depends_target_Linked_List: phony || CMakeFiles/Linked_List.dir
+
+build CMakeFiles/Linked_List.dir/C_Algorithm/Linked_List.c.o: C_COMPILER__Linked_List_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Algorithm/Linked_List.c || cmake_object_order_depends_target_Linked_List
+  DEP_FILE = CMakeFiles/Linked_List.dir/C_Algorithm/Linked_List.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Linked_List.dir
+  OBJECT_FILE_DIR = CMakeFiles/Linked_List.dir/C_Algorithm
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Linked_List
+
+
+#############################################
+# Link the executable Linked_List
+
+build Linked_List: C_EXECUTABLE_LINKER__Linked_List_Debug CMakeFiles/Linked_List.dir/C_Algorithm/Linked_List.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/Linked_List.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Linked_List
+  TARGET_PDB = Linked_List.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -787,7 +818,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List Linked_List
 
 # =============================================================================
 # Built-in targets

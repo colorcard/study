@@ -41,6 +41,7 @@
 - [10_T.c](C_Basic/10_T.c) 可勾勒的最大矩形
 - [student.c](C_Basic/student.c) 学生成绩排名（结构体的使用）
 
-#### Part.2 [C_Algorithm](C_Algorithm) 部分（算法学习）：
+#### Part.2 [C_Algorithm](C_Algorithm) 部分（数据结构与算法学习）：
 - [Bisection.c](C_Algorithm%2FBisection.c) 顺序二分法查找
 - [Array-based-List.c](C_Algorithm%2FArray-based-List.c) 顺序表
+- [Linked_List.c](C_Algorithm%2FLinked_List.c) 链表

@@ -51,23 +51,23 @@ _Bool DeleteList(ArrayList list,int index){
     }
     list->size--;
     return 1;
-}
+}//O(n)
 
 int SizeList(ArrayList list){
     return list->size;
-}
+}//O(1)
 
 E * GetList(ArrayList list, int index){
     if(index < 1 || index > list->size) return NULL;   //如果超出范围就返回NULL
     return &list->array[index - 1];
-}
+}//O(1)
 
 int FindList(ArrayList list, E element){
     for (int i = 0; i < list->size; ++i) {
         if(list->array[i] == element) return i + 1;
     }
     return -1;
-}
+}//O(n)
 
 
 void PrintList(ArrayList list){
@@ -75,7 +75,7 @@ void PrintList(ArrayList list){
         printf("%d ",list->array[i]);
     }
     printf("\n");
-}
+}//O(n)
 
 
 
