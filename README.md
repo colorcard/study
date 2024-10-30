@@ -9,7 +9,8 @@
 ------
 **TO DO：**
 - [x] 完成《C 语言程序设计》的整体学习。
-- [ ] 完成《数据结构与算法》的整体学习。
+- [ ] 完成《数据结构与算法》（参考 [Hello-Algo](https://github.com/krahets/hello-algo)）的整体学习。
+
 - [ ] 阅读一个简单的开源项目 [Tinghttpd](https://github.com/EZLippi/Tinyhttpd) 。
 
 ------
@@ -45,3 +46,5 @@
 - [Bisection.c](C_Algorithm%2FBisection.c) 顺序二分法查找
 - [Array-based-List.c](C_Algorithm%2FArray-based-List.c) 顺序表
 - [Linked_List.c](C_Algorithm%2FLinked_List.c) 链表
+- [recursion.c](C_Algorithm%2Frecursion.c) 求和递归和尾递归
+- [Recur_Fibonacci.c](C_Algorithm%2FRecur_Fibonacci.c) 斐波拉契递归（递归树）
