@@ -8,9 +8,9 @@ int gcd(int a,int b);
 int x,y;
 
 int main(){
-    printf("请输入两个数字：\n");
     scanf("%d%d",&x,&y);
-    printf("最大公约数是%d.",gcd(x,y));
+    printf("最大公约数是:%d\n",gcd(x,y));
+    printf("最小公倍数是:%d",(x*y)/gcd(x,y));
 
     return 0;
 }
