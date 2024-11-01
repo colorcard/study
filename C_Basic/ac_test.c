@@ -1,34 +1,70 @@
 #include <stdio.h>
 
-int gcd(int a, int b);
-int x, y;
-
-int main() {
-    scanf("%d%d", &x, &y);
-    printf("最大公约数是: %d\n", gcd(x, y));
-    printf("最小公倍数是: %d", (x * y) / gcd(x, y));
+int main()
+{
+    int a[101]={0};
+    int flag=0,k=0;
+    int m,n,i;
+    while(scanf("%d %d",&m,&n)!=EOF)
+    {
+        a[m]+=n;
+    }
+    for(i=100;i>=0;i--)
+    {
+        if(i==0&&a[0])
+        {
+            k=1;
+            printf("%d",a[i]);
+            break;
+        }
+        if(a[i])
+        {
+            k=1;
+            if(a[i]==1)
+            {
+                if(i==1)
+                {
+                    printf("x");
+                    flag=1;
+                }
+                else
+                {
+                    printf("x%d",i);
+                    flag=1;
+                }
+            }
+            else if(a[i]==-1)
+            {
+                if(i==1)
+                {
+                    printf("-x");
+                    flag=1;
+                }
+                else
+                {
+                    printf("-x%d",i);
+                    flag=1;
+                }
+            }
+            else
+            {
+                if(i==1)
+                {
+                    printf("%dx",a[i]);
+                    flag=1;
+                }
+                else
+                {
+                    printf("%dx%d",a[i],i);
+                    flag=1;
+                }
+            }
+        }
+        if(flag&&a[i-1]>0)
+            printf("+");
+    }
+    if(k==0)
+        printf("0");
 
     return 0;
-}
-
-int gcd(int a, int b) {
-    int i, mod;
-
-    if (b > a) {
-        i = b;
-        b = a;
-        a = i;
-    }
-
-    if (b == 0) {
-        return a;
-    } else {
-        do {
-            mod = a % b;
-            a = b;
-            b = mod;
-        } while (mod != 0);
-    }
-
-    return a;
 }
