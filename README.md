@@ -41,6 +41,7 @@
 - [9_9.c](C_Basic/9_9.c) 九九乘法表（用于理解指针和数组）
 - [10_T.c](C_Basic/10_T.c) 可勾勒的最大矩形
 - [student.c](C_Basic/student.c) 学生成绩排名（结构体的使用）
+- [WorldCup.c](C_Basic%2FWorldCup.c) 世界杯冠军
 
 #### Part.2 [C_Algorithm](C_Algorithm) 部分（数据结构与算法学习）：
 - [Bisection.c](C_Algorithm%2FBisection.c) 顺序二分法查找
