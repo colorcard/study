@@ -2,21 +2,26 @@
 // Created by colorcard on 2024/9/7.
 //
 
+//int gcd(int x, int y) {
+//    return y == 0 ? x : gcd(y, x % y);
+//}
+
 #include <stdio.h>
 
-int gcd(int a,int b);
-int x,y;
+long long int gcd(long long int a,long long int b);
+long long int x,y;
 
 int main(){
-    scanf("%d%d",&x,&y);
-    printf("最大公约数是:%d\n",gcd(x,y));
-    printf("最小公倍数是:%d",(x*y)/gcd(x,y));
+    while(scanf("%lld%lld",&x,&y)==2){
+        //printf("%lld\n",gcd(x,y));
+        printf("%lld\n",x/gcd(x,y)*y);
+    }
 
     return 0;
 }
 
-int gcd(int a,int b){
-    int i,mod;
+long long int gcd(long long int a,long long int b){
+    long long i,mod;
 
     if(b>a){i=b;b=a;a=i;}
 
