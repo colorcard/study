@@ -877,6 +877,68 @@ build WorldCup: C_EXECUTABLE_LINKER__WorldCup_Debug CMakeFiles/WorldCup.dir/C_Ba
   TARGET_FILE = WorldCup
   TARGET_PDB = WorldCup.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Can_0
+
+
+#############################################
+# Order-only phony target for Can_0
+
+build cmake_object_order_depends_target_Can_0: phony || CMakeFiles/Can_0.dir
+
+build CMakeFiles/Can_0.dir/C_Basic/Can_0.c.o: C_COMPILER__Can_0_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/Can_0.c || cmake_object_order_depends_target_Can_0
+  DEP_FILE = CMakeFiles/Can_0.dir/C_Basic/Can_0.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Can_0.dir
+  OBJECT_FILE_DIR = CMakeFiles/Can_0.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Can_0
+
+
+#############################################
+# Link the executable Can_0
+
+build Can_0: C_EXECUTABLE_LINKER__Can_0_Debug CMakeFiles/Can_0.dir/C_Basic/Can_0.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Can_0.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Can_0
+  TARGET_PDB = Can_0.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target D_Prime
+
+
+#############################################
+# Order-only phony target for D_Prime
+
+build cmake_object_order_depends_target_D_Prime: phony || CMakeFiles/D_Prime.dir
+
+build CMakeFiles/D_Prime.dir/C_Basic/D_Prime.c.o: C_COMPILER__D_Prime_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/D_Prime.c || cmake_object_order_depends_target_D_Prime
+  DEP_FILE = CMakeFiles/D_Prime.dir/C_Basic/D_Prime.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/D_Prime.dir
+  OBJECT_FILE_DIR = CMakeFiles/D_Prime.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target D_Prime
+
+
+#############################################
+# Link the executable D_Prime
+
+build D_Prime: C_EXECUTABLE_LINKER__D_Prime_Debug CMakeFiles/D_Prime.dir/C_Basic/D_Prime.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/D_Prime.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = D_Prime
+  TARGET_PDB = D_Prime.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -911,7 +973,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List Linked_List recursion Recur_Fibonacci WorldCup
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List Linked_List recursion Recur_Fibonacci WorldCup Can_0 D_Prime
 
 # =============================================================================
 # Built-in targets

@@ -42,6 +42,8 @@
 - [10_T.c](C_Basic/10_T.c) 可勾勒的最大矩形
 - [student.c](C_Basic/student.c) 学生成绩排名（结构体的使用）
 - [WorldCup.c](C_Basic%2FWorldCup.c) 世界杯冠军
+- [Can_0.c](C_Basic%2FCan_0.c) 三个数是否运算得到0？
+- [D_Prime.c](C_Basic%2FD_Prime.c) 素数分解
 
 #### Part.2 [C_Algorithm](C_Algorithm) 部分（数据结构与算法学习）：
 - [Bisection.c](C_Algorithm%2FBisection.c) 顺序二分法查找
