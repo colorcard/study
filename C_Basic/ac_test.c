@@ -1,39 +1,26 @@
 #include <stdio.h>
-#include <math.h>
 
-int isPri(int n){
-    int i;
-    if(n<=1){
-        return 0;
-    }
-    for(i=2;i<=sqrt(n);i++){
-        if(n%i==0){
-            return 0;
+int main() {
+    int num, case_num = 1;
+
+    while (1) {
+        scanf("%d", &num);
+        if (num == 0) {
+            break;
         }
-    }
-    return 1;
-}
 
-int main(){
-    int T;
-    scanf("%d",&T);
-    while(T--){
-        int n,flag=0;
-        scanf("%d",&n);
+        printf("case %d:\n", case_num++);
 
-        for (int i = 2; i < n; ++i) {
-            for (int j = i+1; j < n; ++j) {
-                if(i*j==n&&isPri(i)&&isPri(j)){
-                    printf("Yes\n");
-                    flag=1;
-                    continue;
-                }
+        for (int i = 1; i <= num; i++) {
+            for (int j = 0; j < num - i; j++) {
+                printf(" ");
             }
+            for (int j = 0; j < 2 * i - 1; j++) {
+                printf("%d", i);
+            }
+            printf("\n");
         }
-        if(flag!=1) printf("No\n");
-
     }
-
 
     return 0;
 }

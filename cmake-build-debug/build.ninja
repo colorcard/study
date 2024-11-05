@@ -939,6 +939,37 @@ build D_Prime: C_EXECUTABLE_LINKER__D_Prime_Debug CMakeFiles/D_Prime.dir/C_Basic
   TARGET_FILE = D_Prime
   TARGET_PDB = D_Prime.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target LeastCommonMultiple
+
+
+#############################################
+# Order-only phony target for LeastCommonMultiple
+
+build cmake_object_order_depends_target_LeastCommonMultiple: phony || CMakeFiles/LeastCommonMultiple.dir
+
+build CMakeFiles/LeastCommonMultiple.dir/C_Basic/LeastCommonMultiple_.c.o: C_COMPILER__LeastCommonMultiple_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/LeastCommonMultiple$ .c || cmake_object_order_depends_target_LeastCommonMultiple
+  DEP_FILE = CMakeFiles/LeastCommonMultiple.dir/C_Basic/LeastCommonMultiple_.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/LeastCommonMultiple.dir
+  OBJECT_FILE_DIR = CMakeFiles/LeastCommonMultiple.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LeastCommonMultiple
+
+
+#############################################
+# Link the executable LeastCommonMultiple
+
+build LeastCommonMultiple: C_EXECUTABLE_LINKER__LeastCommonMultiple_Debug CMakeFiles/LeastCommonMultiple.dir/C_Basic/LeastCommonMultiple_.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/LeastCommonMultiple.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = LeastCommonMultiple
+  TARGET_PDB = LeastCommonMultiple.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -973,7 +1004,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List Linked_List recursion Recur_Fibonacci WorldCup Can_0 D_Prime
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List Linked_List recursion Recur_Fibonacci WorldCup Can_0 D_Prime LeastCommonMultiple
 
 # =============================================================================
 # Built-in targets

@@ -27,5 +27,6 @@
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/WorldCup.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/Can_0.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/D_Prime.dir
+/Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/LeastCommonMultiple.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/colorcard/CLionProjects/study/cmake-build-debug/CMakeFiles/rebuild_cache.dir
