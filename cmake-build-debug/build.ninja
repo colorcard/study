@@ -970,6 +970,68 @@ build LeastCommonMultiple: C_EXECUTABLE_LINKER__LeastCommonMultiple_Debug CMakeF
   TARGET_FILE = LeastCommonMultiple
   TARGET_PDB = LeastCommonMultiple.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Jump
+
+
+#############################################
+# Order-only phony target for Jump
+
+build cmake_object_order_depends_target_Jump: phony || CMakeFiles/Jump.dir
+
+build CMakeFiles/Jump.dir/C_Basic/Jump.c.o: C_COMPILER__Jump_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/Jump.c || cmake_object_order_depends_target_Jump
+  DEP_FILE = CMakeFiles/Jump.dir/C_Basic/Jump.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Jump.dir
+  OBJECT_FILE_DIR = CMakeFiles/Jump.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Jump
+
+
+#############################################
+# Link the executable Jump
+
+build Jump: C_EXECUTABLE_LINKER__Jump_Debug CMakeFiles/Jump.dir/C_Basic/Jump.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/Jump.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Jump
+  TARGET_PDB = Jump.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PerfectPalindromeNumber
+
+
+#############################################
+# Order-only phony target for PerfectPalindromeNumber
+
+build cmake_object_order_depends_target_PerfectPalindromeNumber: phony || CMakeFiles/PerfectPalindromeNumber.dir
+
+build CMakeFiles/PerfectPalindromeNumber.dir/C_Basic/PerfectPalindromeNumber_.c.o: C_COMPILER__PerfectPalindromeNumber_unscanned_Debug /Users/colorcard/CLionProjects/study/C_Basic/PerfectPalindromeNumber$ .c || cmake_object_order_depends_target_PerfectPalindromeNumber
+  DEP_FILE = CMakeFiles/PerfectPalindromeNumber.dir/C_Basic/PerfectPalindromeNumber_.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/PerfectPalindromeNumber.dir
+  OBJECT_FILE_DIR = CMakeFiles/PerfectPalindromeNumber.dir/C_Basic
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PerfectPalindromeNumber
+
+
+#############################################
+# Link the executable PerfectPalindromeNumber
+
+build PerfectPalindromeNumber: C_EXECUTABLE_LINKER__PerfectPalindromeNumber_Debug CMakeFiles/PerfectPalindromeNumber.dir/C_Basic/PerfectPalindromeNumber_.c.o
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  OBJECT_DIR = CMakeFiles/PerfectPalindromeNumber.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = PerfectPalindromeNumber
+  TARGET_PDB = PerfectPalindromeNumber.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1004,7 +1066,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/colorcard/CLionProjects/study/cmake-build-debug
 
-build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List Linked_List recursion Recur_Fibonacci WorldCup Can_0 D_Prime LeastCommonMultiple
+build all: phony s_and_c bug_and_apple add PrimalityTest Calculate_e GCD a_b Fibonacci min SelectionSort DichotomySearch MonthDay PalindromicJudge YearDay ac_test bubble p_Sum UnhappyJJ SaddlePoints 10_T student 1_Bisection Array-based-List Linked_List recursion Recur_Fibonacci WorldCup Can_0 D_Prime LeastCommonMultiple Jump PerfectPalindromeNumber
 
 # =============================================================================
 # Built-in targets

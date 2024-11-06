@@ -45,6 +45,8 @@
 - [Can_0.c](C_Basic%2FCan_0.c) 三个数是否运算得到0？
 - [D_Prime.c](C_Basic%2FD_Prime.c) 素数分解
 - [LeastCommonMultiple .c](C_Basic%2FLeastCommonMultiple%20.c) 任取三个元素最小公倍数
+- [Jump.c](C_Basic%2FJump.c) 青蛙在圆周跳是否能够返回原地？
+- [PerfectPalindromeNumber .c](C_Basic%2FPerfectPalindromeNumber%20.c) 完美回文数
 
 #### Part.2 [C_Algorithm](C_Algorithm) 部分（数据结构与算法学习）：
 - [Bisection.c](C_Algorithm%2FBisection.c) 顺序二分法查找
