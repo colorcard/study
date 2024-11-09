@@ -16,15 +16,15 @@ struct List{
 typedef struct List * ArrayList;
 
 _Bool ListInit(ArrayList list){
-    list->array = malloc(sizeof(E) * 10);
+    list->array = malloc(sizeof(E) * 10);//动态分配内存
     if (list->array == NULL) return 0;
-    list->capacity = 10;
-    list->size=0;
+    list->capacity = 10;//容量
+    list->size=0;//元素个数
 
     return 1;
 }
 
-_Bool InsertList(ArrayList list,E element,int index){
+_Bool InsertList(ArrayList list,E element,int index){//
     if(index<1||index>list->size+1) return 0;
     if(list->size==list->capacity){
         int newCapacity = list->capacity+(list->capacity>>1);

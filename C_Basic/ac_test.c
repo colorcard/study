@@ -1,36 +1,31 @@
 #include <stdio.h>
 
-const int N1=11,N2=1111,N3=1001;
+long long abc(long long n) {
+    long long a, b = 0;
+    for (a = 1; a < n; a++) {
+        if (n % a == 0) {
+            b += a;
+        }
+    }
+    return b;
+}
 
-int main(){
-    int T;
-    scanf("%d",&T);
-    while(T--){
-
-        int n,flag=0,ans;
-        scanf("%d",&n);
-        if(n%11!=0) ans=0;
-        else{
-            for (int i = 0; i*N1 <= n; ++i) {
-                for (int j =0; j*N2 <=n; ++j) {
-                    for (int k = 0; k*N3 <=n; ++k) {
-                        if(i*N1+j*N2+k*N3==n){
-                            ans=i+j+k;
-                            flag=1;
-                            break;
-                        }
-                    }
-                    if(flag) break;
-                }
-                if(flag) break;
+void solve() {
+    long long d, c, sc, sd;
+    for (c = 1; c <= 3000; c++) {
+        sc = 0;
+        sc = abc(c);
+        for (d = 1; d <= 3000; d++) {
+            sd = 0;
+            sd = abc(d);
+            if (d!= c && sc == d && sd == c) {
+                printf("(%lld,%lld)", c, d);
             }
         }
-
-
-        printf("%d\n",ans);
-
-
-
     }
+}
+
+int main() {
+    solve();
     return 0;
 }

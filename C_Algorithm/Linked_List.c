@@ -21,7 +21,7 @@ void InitList(Node node){
 _Bool InsertList(Node head, E element,int index){
     if(index<1) return 0;
     while (--index){
-        head=head->next;
+        head=head->next;//理解形参
         if(head==NULL) return 0;
     }
 
