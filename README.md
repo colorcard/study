@@ -48,6 +48,8 @@
 - [Jump.c](C_Basic%2FJump.c) 青蛙在圆周跳是否能够返回原地？
 - [PerfectPalindromeNumber .c](C_Basic%2FPerfectPalindromeNumber%20.c) 完美回文数
 
+---
+
 #### Part.2 [C_Algorithm](C_Algorithm) 部分（数据结构与算法学习）：
 - [Bisection.c](C_Algorithm%2FBisection.c) 顺序二分法查找
 - [Array-based-List.c](C_Algorithm%2FArray-based-List.c) 顺序表
@@ -57,4 +59,4 @@
 
 ---
 
-#### Sp.1 [Mid_Test](Mid_Test)[C_Algorithm](C_Algorithm) 期中考试题目：
+#### Sp.1 [Mid_Test](Mid_Test)[C_Algorithm](C_Algorithm) 期中考试题目。
