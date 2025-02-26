@@ -27,7 +27,7 @@ _Bool ListInit(ArrayList list){
 _Bool InsertList(ArrayList list,E element,int index){//
     if(index<1||index>list->size+1) return 0;
     if(list->size==list->capacity){
-        int newCapacity = list->capacity+(list->capacity>>1);
+        int newCapacity = list->capacity+(list->capacity>>1);//总是扩容1.5倍
         int *newArray = realloc(list->array,sizeof(E)*newCapacity);
         if(newArray==NULL) return 0;
         list->array=newArray;

@@ -1,23 +1,25 @@
 //
-// Created by colorcard on 2024/10/27.
+// Created by colorcard on 25-2-26.
 //
-
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef int E;
 
 struct ListNote{
     E element;
     struct ListNote * next;
+    struct ListNote * prior;
 };
 
 typedef struct ListNote* Node;
 
 void InitList(Node node){
     node->next=NULL;
+    node->prior=NULL;
 }
 
+/*
 _Bool InsertList(Node head, E element,int index){
     if(index<1) return 0;
     while (--index){
@@ -103,4 +105,4 @@ int main(){
 
 
     return 0;
-}
+}*/
