@@ -19,7 +19,7 @@ void InitList(Node node){
     node->prior=NULL;
 }
 
-/*
+
 _Bool InsertList(Node head, E element,int index){
     if(index<1) return 0;
     while (--index){
@@ -29,10 +29,12 @@ _Bool InsertList(Node head, E element,int index){
 
     Node node= malloc(sizeof (struct ListNote));//创建一个新的节点
 
-    if (node==NULL) return 0;
+    if (node==NULL) return 0;//内存分配失败
     node->element=element;//保存元素
     node->next=head->next;//让新的接点指向原本位置节点
     head->next=node;//让前驱节点指向新的节点
+    node->prior=head;//让新的节点的前驱节点指向前驱节点
+    node->next->prior=node;//让原本位置节点的前驱节点指向新的节点
 
     return 1;
 }
@@ -46,6 +48,7 @@ _Bool DeleteList(Node head,int index){
     if(head->next==NULL) return 0;
     Node tmp=head->next;
     head->next=head->next->next;
+    head->next->prior=head;//让删除节点的后继节点的前驱节点指向前驱节点
     free(tmp);//释放删除节点内存，防止内存泄漏
 
     return 1;
@@ -105,4 +108,4 @@ int main(){
 
 
     return 0;
-}*/
+}
